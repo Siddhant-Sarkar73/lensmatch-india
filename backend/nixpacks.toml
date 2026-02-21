@@ -1,0 +1,12 @@
+# Railway uses Nixpacks; ensure Node 20 and install deps
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+cmds = ["npm ci --omit=dev"]
+
+[phases.build]
+cmds = ["echo 'No build step'"]
+
+[start]
+cmd = "node server.js"

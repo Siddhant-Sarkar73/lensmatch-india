@@ -2,6 +2,10 @@
 
 Price tracking, email alerts, and analytics backend for LensMatch India.
 
+## Deploy to Railway
+
+See **[DEPLOY_RAILWAY.md](./DEPLOY_RAILWAY.md)** for step-by-step instructions. In short: Railway → New Project → Deploy from GitHub → select this repo → set **Root Directory** to `backend` → Add PostgreSQL → set variables → Generate domain.
+
 ## Project Structure
 
 ```
