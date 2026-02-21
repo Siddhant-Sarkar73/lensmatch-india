@@ -1,0 +1,17 @@
+{
+  "name": "lensmatch-india",
+  "version": "1.0.0",
+  "description": "Find your perfect Nikon portrait lens",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^23.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": ["**/*.test.js"]
+  }
+}
