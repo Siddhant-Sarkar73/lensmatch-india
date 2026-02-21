@@ -1,0 +1,242 @@
+[
+  {
+    "id": "start",
+    "text": "What are you looking to do?",
+    "sub": "This helps us direct you to the right journey",
+    "why": "Starting with your goal helps us give much more relevant results — rental and buying have very different considerations.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "🛒",
+        "t": "Buy a lens",
+        "d": "Find the perfect portrait lens to own",
+        "v": "buy"
+      },
+      {
+        "e": "🔍",
+        "t": "Try before buying",
+        "d": "Rent first in your city, then decide",
+        "v": "rent"
+      },
+      {
+        "e": "📚",
+        "t": "Just researching",
+        "d": "Not ready to buy yet, want to learn",
+        "v": "learn"
+      }
+    ]
+  },
+  {
+    "id": "budget",
+    "text": "What's your budget for the lens?",
+    "sub": "Include any accessories you might also need",
+    "why": "Budget is the single biggest constraint in lens choice. It determines which optical quality tier you can access.",
+    "type": "budget",
+    "opts": [
+      {
+        "e": "💸",
+        "t": "Under ₹15,000",
+        "d": "Entry-level lenses — great starters, limited optical quality",
+        "v": "under15"
+      },
+      {
+        "e": "💰",
+        "t": "₹15,000 – ₹35,000",
+        "d": "Mid-range sweet spot — excellent sharpness and bokeh",
+        "v": "15to35"
+      },
+      {
+        "e": "💎",
+        "t": "₹35,000 – ₹70,000",
+        "d": "Enthusiast grade — pro-level optics, better build",
+        "v": "35to70"
+      },
+      {
+        "e": "🏆",
+        "t": "₹70,000+",
+        "d": "Professional grade — best optics money can buy in India",
+        "v": "over70"
+      }
+    ]
+  },
+  {
+    "id": "brand",
+    "text": "Which camera brand do you shoot with?",
+    "sub": "Native lenses always give the best autofocus performance",
+    "why": "Your camera mount determines which lenses are compatible. Third-party lenses (Sigma, Tamron) can work but native lenses give best AF.",
+    "type": "brand",
+    "opts": [
+      {
+        "e": "🟡",
+        "t": "Nikon",
+        "d": "F-mount (DSLR) or Z-mount (mirrorless)",
+        "v": "nikon"
+      },
+      {
+        "e": "🔴",
+        "t": "Canon",
+        "d": "EF/EF-S mount (DSLR) or RF mount (mirrorless)",
+        "v": "canon"
+      },
+      {
+        "e": "⚫",
+        "t": "Sony",
+        "d": "E-mount mirrorless",
+        "v": "sony"
+      },
+      {
+        "e": "🔲",
+        "t": "Fujifilm",
+        "d": "X-mount mirrorless",
+        "v": "fujifilm"
+      },
+      {
+        "e": "❓",
+        "t": "Not sure / Open",
+        "d": "Show me across all brands",
+        "v": "any"
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "text": "Is your camera a DSLR or mirrorless?",
+    "sub": "Helps narrow down compatible lens mounts",
+    "why": "DSLRs use older mounts (F, EF) while mirrorless use newer short-flange mounts (Z, RF, E, X). Wrong mount = incompatible lens.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "📷",
+        "t": "DSLR",
+        "d": "Traditional camera with optical viewfinder and mirror",
+        "v": "dslr"
+      },
+      {
+        "e": "📸",
+        "t": "Mirrorless",
+        "d": "Electronic viewfinder, smaller body, newer tech",
+        "v": "mirrorless"
+      },
+      {
+        "e": "🤷",
+        "t": "Not sure",
+        "d": "I'll figure it out later",
+        "v": "unsure"
+      }
+    ]
+  },
+  {
+    "id": "subject",
+    "text": "What will you mostly photograph?",
+    "sub": "Portrait lenses are optimised differently for different subjects",
+    "why": "A wedding photographer needs different things than a studio portrait artist. Subject determines ideal focal length and aperture.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "💍",
+        "t": "Weddings / Events",
+        "d": "Moving subjects, low light, must have fast AF",
+        "v": "wedding"
+      },
+      {
+        "e": "🎭",
+        "t": "Studio Portraits",
+        "d": "Controlled lighting, maximum sharpness and detail",
+        "v": "studio"
+      },
+      {
+        "e": "🌆",
+        "t": "Street / Candid",
+        "d": "Discreet, fast, natural light shooting",
+        "v": "street"
+      },
+      {
+        "e": "👶",
+        "t": "Family / Kids",
+        "d": "Fast AF, burst shooting, some reach needed",
+        "v": "family"
+      }
+    ]
+  },
+  {
+    "id": "skill",
+    "text": "How would you describe your photography experience?",
+    "sub": "This affects which features matter most to you",
+    "why": "Beginners benefit from forgiving lenses with great AF. Experienced photographers may prioritise optical character over convenience.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "🌱",
+        "t": "Beginner",
+        "d": "New to photography or upgrading from kit lens",
+        "v": "beginner"
+      },
+      {
+        "e": "📈",
+        "t": "Enthusiast",
+        "d": "Shot for 1-3 years, know the basics well",
+        "v": "enthusiast"
+      },
+      {
+        "e": "⭐",
+        "t": "Experienced",
+        "d": "3+ years, comfortable with manual settings",
+        "v": "experienced"
+      }
+    ]
+  },
+  {
+    "id": "af",
+    "text": "How important is autofocus speed to you?",
+    "sub": "Some of the best portrait lenses have slow AF",
+    "why": "Fast AF matters most for moving subjects. For studio/still portraits, even slow AF (like the Nikon 85/1.4D) is fine and may give better optical quality.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "⚡",
+        "t": "Critical — must be fast",
+        "d": "I shoot moving subjects and can't miss moments",
+        "v": "critical"
+      },
+      {
+        "e": "👍",
+        "t": "Important but not critical",
+        "d": "I prefer fast AF but can live with moderate speed",
+        "v": "important"
+      },
+      {
+        "e": "🎨",
+        "t": "Don't mind slow AF",
+        "d": "I mostly shoot stationary subjects, optical quality first",
+        "v": "dontmind"
+      }
+    ]
+  },
+  {
+    "id": "ois",
+    "text": "Do you need optical image stabilisation (OIS)?",
+    "sub": "OIS helps in low light hand-held shooting",
+    "why": "OIS lets you shoot at slower shutter speeds without blur. Most portrait primes don't have it — but with a wide aperture in good light, you often don't need it.",
+    "type": "options",
+    "opts": [
+      {
+        "e": "✅",
+        "t": "Yes — I shoot in low light often",
+        "d": "Indoor events, dimly lit venues, no flash allowed",
+        "v": "yes"
+      },
+      {
+        "e": "🤷",
+        "t": "Nice to have",
+        "d": "I occasionally shoot handheld in mixed light",
+        "v": "nicetohave"
+      },
+      {
+        "e": "❌",
+        "t": "Not needed",
+        "d": "I use flash / tripod / shoot outdoors mostly",
+        "v": "no"
+      }
+    ]
+  }
+]

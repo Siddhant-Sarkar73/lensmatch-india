@@ -1,0 +1,250 @@
+{
+  "bangalore": [
+    {
+      "id": "rentlens-bangalore",
+      "name": "Rentlens.in",
+      "type": "online",
+      "featured": true,
+      "pricePerDay": 450,
+      "deposit": 8000,
+      "delivery": true,
+      "description": "Premium online lens rental platform with same-day delivery in Bangalore. Fast checkout and hassle-free returns.",
+      "lenses": [
+        "Nikon 85mm f/1.8G",
+        "Canon 85mm f/1.8 USM",
+        "Sony FE 85mm f/1.4 GM",
+        "Fujifilm XF 56mm f/1.2 R WR II",
+        "Sigma 85mm f/1.4 Art"
+      ],
+      "contact": "https://rentlens.in/bangalore",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.8
+    },
+    {
+      "id": "ratan-camera-house",
+      "name": "Ratan Camera House",
+      "type": "store",
+      "featured": false,
+      "pricePerDay": 500,
+      "deposit": 12000,
+      "delivery": false,
+      "description": "Long-standing camera store in Bangalore with excellent lens rental inventory and knowledgeable staff.",
+      "lenses": [
+        "Nikon 85mm f/1.4D",
+        "Canon EF 85mm f/1.2L II",
+        "Nikon Z 85mm f/1.2 S",
+        "Canon RF 85mm f/1.2L",
+        "Sigma 135mm f/1.8 Art"
+      ],
+      "contact": "https://maps.google.com/?q=Ratan+Camera+House+Bangalore",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.6
+    },
+    {
+      "id": "bangalore-photo-community",
+      "name": "Bangalore Photography Community",
+      "type": "community",
+      "featured": false,
+      "pricePerDay": 300,
+      "deposit": 5000,
+      "delivery": false,
+      "description": "Active WhatsApp/Facebook group of local photographers sharing and renting equipment with peers.",
+      "lenses": [
+        "Nikon 50mm f/1.4G",
+        "Sony FE 85mm f/1.8",
+        "Fujifilm XF 35mm f/1.4 R",
+        "Tamron 85mm f/1.8 VC",
+        "Samyang 85mm f/1.4 MF"
+      ],
+      "contact": "https://www.facebook.com/groups/bangalorephotographers",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.3
+    }
+  ],
+  "hyderabad": [
+    {
+      "id": "rentlens-hyderabad",
+      "name": "Rentlens.in",
+      "type": "online",
+      "featured": true,
+      "pricePerDay": 450,
+      "deposit": 8000,
+      "delivery": true,
+      "description": "Premium online lens rental with next-day delivery available in Hyderabad. Wide selection and easy booking.",
+      "lenses": [
+        "Nikon Z 85mm f/1.2 S",
+        "Sony FE 85mm f/1.4 GM",
+        "Canon RF 85mm f/1.2L",
+        "Fujifilm XF 56mm f/1.2 R WR II",
+        "Sigma 85mm f/1.4 Art"
+      ],
+      "contact": "https://rentlens.in/hyderabad",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.8
+    },
+    {
+      "id": "hyderabad-lens-rentals",
+      "name": "Hyderabad Lens Rentals",
+      "type": "store",
+      "featured": false,
+      "pricePerDay": 550,
+      "deposit": 10000,
+      "delivery": false,
+      "description": "Dedicated lens rental store offering premium optics and competitive rates. Professional grade equipment.",
+      "lenses": [
+        "Nikon 85mm f/1.4D",
+        "Canon 85mm f/1.8 USM",
+        "Sony FE 50mm f/1.2 GM",
+        "Fujifilm XF 90mm f/2 R WR",
+        "Nikon 105mm f/1.4E"
+      ],
+      "contact": "https://maps.google.com/?q=Hyderabad+Lens+Rentals",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.5
+    },
+    {
+      "id": "hyderabad-shutterbugs",
+      "name": "Hyderabad Shutterbugs WhatsApp Group",
+      "type": "community",
+      "featured": false,
+      "pricePerDay": 350,
+      "deposit": 6000,
+      "delivery": false,
+      "description": "Growing community of Hyderabad photographers lending and renting lenses peer-to-peer.",
+      "lenses": [
+        "Canon EF 50mm f/1.4 USM",
+        "Nikon 50mm f/1.8G",
+        "Sony FE 35mm f/1.8",
+        "Tamron 45mm f/1.8 VC",
+        "Viltrox 85mm f/1.8 E-mount"
+      ],
+      "contact": "https://chat.whatsapp.com/example",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.2
+    }
+  ],
+  "pune": [
+    {
+      "id": "rentlens-pune",
+      "name": "Rentlens.in",
+      "type": "online",
+      "featured": true,
+      "pricePerDay": 450,
+      "deposit": 8000,
+      "delivery": true,
+      "description": "Fast online rental service with same-day delivery in Pune. Great selection of portrait lenses.",
+      "lenses": [
+        "Nikon 85mm f/1.8G",
+        "Canon RF 85mm f/1.2L",
+        "Sony FE 85mm f/1.4 GM",
+        "Fujifilm XF 56mm f/1.2 R WR II",
+        "Sigma 50mm f/1.4 Art"
+      ],
+      "contact": "https://rentlens.in/pune",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.8
+    },
+    {
+      "id": "click-studio-pune",
+      "name": "Click Studio Pune",
+      "type": "store",
+      "featured": false,
+      "pricePerDay": 480,
+      "deposit": 9000,
+      "delivery": false,
+      "description": "Professional photography studio with rental equipment available. Expert advice and maintenance guaranteed.",
+      "lenses": [
+        "Canon 85mm f/1.2L II",
+        "Nikon Z 50mm f/1.8 S",
+        "Sony FE 85mm f/1.8",
+        "Sigma 135mm f/1.8 Art",
+        "Tamron 35-150mm f/2-2.8"
+      ],
+      "contact": "https://maps.google.com/?q=Click+Studio+Pune",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.7
+    },
+    {
+      "id": "pune-lens-sharing",
+      "name": "Pune Lens Sharing Group",
+      "type": "community",
+      "featured": false,
+      "pricePerDay": 320,
+      "deposit": 5500,
+      "delivery": false,
+      "description": "Friendly community group where Pune photographers share and rent equipment locally.",
+      "lenses": [
+        "Nikon 50mm f/1.8G",
+        "Canon 50mm f/1.8 STM",
+        "Sony FE 50mm f/1.8",
+        "Fujifilm XF 35mm f/2 R WR",
+        "Samyang AF 85mm f/1.4"
+      ],
+      "contact": "https://www.facebook.com/groups/punelenssharing",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.4
+    }
+  ],
+  "mumbai": [
+    {
+      "id": "rentlens-mumbai",
+      "name": "Rentlens.in",
+      "type": "online",
+      "featured": true,
+      "pricePerDay": 500,
+      "deposit": 8500,
+      "delivery": true,
+      "description": "Premium lens rental with same-day delivery across Mumbai. Largest inventory in the city.",
+      "lenses": [
+        "Nikon 85mm f/1.8G",
+        "Canon EF 85mm f/1.2L II",
+        "Sony FE 85mm f/1.4 GM",
+        "Nikon 105mm f/1.4E",
+        "Sigma 85mm f/1.4 Art"
+      ],
+      "contact": "https://rentlens.in/mumbai",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.9
+    },
+    {
+      "id": "mumbai-camera-exchange",
+      "name": "Mumbai Camera Exchange",
+      "type": "store",
+      "featured": false,
+      "pricePerDay": 550,
+      "deposit": 11000,
+      "delivery": false,
+      "description": "Established camera rental outlet with premium lenses and professional support.",
+      "lenses": [
+        "Nikon Z 85mm f/1.2 S",
+        "Canon RF 85mm f/1.2L",
+        "Sony FE 50mm f/1.2 GM",
+        "Canon 135mm f/2L",
+        "Nikon 58mm f/1.4G"
+      ],
+      "contact": "https://maps.google.com/?q=Mumbai+Camera+Exchange",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.7
+    },
+    {
+      "id": "mumbai-photo-collective",
+      "name": "Mumbai Photo Collective",
+      "type": "community",
+      "featured": false,
+      "pricePerDay": 400,
+      "deposit": 7000,
+      "delivery": false,
+      "description": "Active Mumbai photography community with extensive peer-to-peer lens sharing network.",
+      "lenses": [
+        "Nikon 85mm f/1.4D",
+        "Canon 85mm f/1.8 USM",
+        "Sony FE 35mm f/1.8",
+        "Fujifilm XF 56mm f/1.2 R",
+        "Tamron 85mm f/1.8 VC"
+      ],
+      "contact": "https://www.facebook.com/groups/mumbaimumbaiPhotocollective",
+      "verifiedDate": "2024-Q4",
+      "rating": 4.5
+    }
+  ]
+}

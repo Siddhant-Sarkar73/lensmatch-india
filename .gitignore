@@ -1,0 +1,10 @@
+node_modules/
+.cursor/
+.DS_Store
+*.log
+.env
+.env.local
+backend/node_modules/
+backend/.env
+coverage/
+dist/

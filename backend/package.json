@@ -1,0 +1,28 @@
+{
+  "name": "lensmatch-india-backend",
+  "version": "1.0.0",
+  "description": "LensMatch India Phase 2 backend — price tracking, email alerts, analytics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:setup": "psql $DATABASE_URL -f db/schema.sql",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.12",
+    "pg": "^8.11.3",
+    "puppeteer": "^22.4.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}

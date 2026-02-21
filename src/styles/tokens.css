@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font already loaded via index.html */
+
+@layer base {
+  :root {
+    --cream:    #fdf6ee;
+    --cream-d:  #f5ead8;
+    --orange:   #e07b39;
+    --orange-d: #c4612a;
+    --orange-l: #fef0e4;
+    --brown:    #3d2c1e;
+    --brown-l:  #6b4c35;
+    --muted:    #8c7060;
+    --border:   #e8ddd2;
+    --teal:     #1e7b6e;
+    --teal-d:   #155e53;
+    --teal-l:   #e6f4f2;
+    --blue:     #2c4e8a;
+    --blue-d:   #1a3468;
+    --blue-l:   #e8eef8;
+    --gold:     #f5a623;
+    --gold-l:   #fff8e1;
+    --green:    #2e7d32;
+    --green-l:  #e8f5e9;
+    --red:      #c62828;
+    --red-l:    #ffebee;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--cream);
+    color: var(--brown);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  * { box-sizing: border-box; }
+}
+
+@layer components {
+  /* Reusable button variants */
+  .btn-primary {
+    @apply bg-orange text-white font-bold rounded-xl px-5 py-2.5 hover:bg-orange-d transition-colors cursor-pointer border-0 font-sans;
+  }
+  .btn-secondary {
+    @apply bg-white text-brown font-bold rounded-xl px-5 py-2.5 border border-border hover:border-orange hover:text-orange transition-colors cursor-pointer font-sans;
+  }
+  .btn-teal {
+    @apply bg-teal text-white font-bold rounded-xl px-5 py-2.5 hover:bg-teal-d transition-colors cursor-pointer border-0 font-sans;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-white border border-border rounded-2xl shadow-card;
+  }
+
+  /* Pill / tag */
+  .pill {
+    @apply bg-cream-d text-brown-l text-xs font-bold px-2 py-0.5 rounded-full;
+  }
+  .pill-mount  { @apply bg-blue-l text-blue; }
+  .pill-ois    { @apply bg-teal-l text-teal; }
+  .pill-orange { @apply bg-orange-l text-orange-d; }
+
+  /* Section heading */
+  .section-heading {
+    @apply text-2xl font-extrabold text-brown mb-2;
+  }
+  .section-sub {
+    @apply text-muted text-base mb-8;
+  }
+
+  /* Stars */
+  .stars { color: var(--gold); }
+}
+
+/* Sticky nav height compensation */
+.page-top { padding-top: 64px; }
+
+/* Smooth page transitions */
+main > * { animation: fadeIn 0.18s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream-d); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
